@@ -25,29 +25,33 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0; /* reduced padding for tighter spacing */
+    flex-wrap: wrap; /* allows wrapping on small screens */
 }
 
 .logo {
     color: orange;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: bold;
+    margin-right: 20px; /* adds space between logo and menu */
 }
 
+/* Menu styling */
 .menu {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px; /* ✅ adds space between each menu item */
 }
 
 .menu li {
     margin-left: 30px;
 }
-
 .menu li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    letter-spacing: 1px; /* improves readability */
 }
 
 .menu li a:hover {
@@ -168,10 +172,12 @@ body {
     .navbar {
         flex-direction: column;
         text-align: center;
+         padding: 15px 0;
     }
 
     .menu {
         flex-direction: row;
+         gap: 10px; /* smaller gap for mobile */
         margin-top: 15px;
     }
 
@@ -204,4 +210,10 @@ body {
     footer .form {
         margin-top: 20px;
     }
+
+.logo {
+        margin-bottom: 10px; /* keeps logo close to menu */
+    }
 }
+
+    
