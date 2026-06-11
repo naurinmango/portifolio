@@ -11,7 +11,7 @@ body {
         rgba(0,0,0,0.5),
         rgba(18, 10, 10, 0.5)
     ),
-    url("IMG-20260602-WA0003[1].jpg");
+    url("pc1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -222,6 +222,20 @@ body {
 .logo {
         margin-bottom: 10px; /* keeps logo close to menu */
     }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(18, 10, 10, 0.5)
+    ),
+    url("pic2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
     
